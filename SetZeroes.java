@@ -43,7 +43,7 @@ public class SetZeroes{
             }
         }
 
-        for(int i = 0 ; i < row ; i++){
+        for(int i = 1 ; i < row ; i++){
             if(mat[i][0] == 0){
                 for(int j = 0 ; j < col ; j++){
                     mat[i][j] = 0;
@@ -51,7 +51,7 @@ public class SetZeroes{
             }
         }
 
-        for(int j = 0 ; j < col ; j++){
+        for(int j = 1 ; j < col ; j++){
             if(mat[0][j] == 0){
                 for(int i = 0 ; i < row ; i++){
                     mat[i][j] = 0;
